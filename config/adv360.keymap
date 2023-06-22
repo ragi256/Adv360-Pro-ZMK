@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-         &kp GRAVE  &kp N1        &kp N2     &kp N3            &kp N4  &kp N5                    &tog 1                                                                             &mo 3  &kp N6             &kp N7     &kp N8   &kp N9    &kp N0      &kp EQUAL
-  &kp LEFT_BRACKET   &kp Q         &kp W      &kp E             &kp R   &kp T                     &none                                                                             &none   &kp Y              &kp U      &kp I    &kp O     &kp P      &kp MINUS
- &kp RIGHT_BRACKET   &kp A         &kp S      &kp D             &kp F   &kp G            &kp LEFT_SHIFT  &kp LEFT_ALT     &kp E                  &kp LEFT_ALT    &kp ESC  &kp RIGHT_SHIFT   &kp H              &kp J      &kp K    &kp L  &kp SEMI        &kp SQT
-         &kp LSHFT   &kp Z         &kp X      &kp C             &kp V   &kp B                                          &kp HOME                     &kp PG_UP                               &kp N              &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH
-           &kp ESC   &none  &kp LEFT_ALT  &kp LMETA  &kp LEFT_CONTROL                         &kp SPACE       &kp TAB   &kp END                     &kp PG_DN  &kp ENTER    &kp BACKSPACE          &kp RIGHT_CONTROL   &kp LEFT   &kp UP  &kp DOWN      &kp RIGHT
+         &kp GRAVE  &kp N1  &kp N2        &kp N3         &kp N4  &kp N5                    &tog 1                                                                          &mo 3  &kp N6          &kp N7        &kp N8          &kp N9           &kp N0      &kp EQUAL
+  &kp LEFT_BRACKET   &kp Q   &kp W         &kp E          &kp R   &kp T                     &none                                                                          &none   &kp Y           &kp U         &kp I           &kp O            &kp P      &kp MINUS
+ &kp RIGHT_BRACKET   &kp A   &kp S         &kp D          &kp F   &kp G            &kp LEFT_SHIFT      &none  &kp HOME                    &kp PAGE_UP     &none  &kp RIGHT_SHIFT   &kp H           &kp J         &kp K           &kp L         &kp SEMI        &kp SQT
+         &kp LSHFT   &kp Z   &kp X         &kp C          &kp V   &kp B                                        &kp END                  &kp PAGE_DOWN                              &kp N           &kp M     &kp COMMA         &kp DOT         &kp FSLH  &kp BACKSLASH
+           &kp ESC   &none   &none  &kp LEFT_ALT  &kp LEFT_META                         &kp LCTRL  &kp SPACE   &kp TAB                      &kp ENTER  &kp BSPC        &kp RCTRL          &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW          &none
             >;
         };
 
